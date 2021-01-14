@@ -13,18 +13,22 @@ npm install --save use-debounce
 ## Usage
 
 ```tsx
-import * as React from 'react'
+import React, { useState } from 'react';
+import { useDebounce } from 'use-debounce';
 
-import { useMyHook } from 'use-debounce'
-
-const Example = () => {
-  const example = useMyHook()
+const App = () => {
+  const [value, setValue] = useState('');
+  const text = useDebounce(value);
   return (
     <div>
-      {example}
+      <div>
+        <input type="text" value={value} onChange={(e) => setValue(e.target.value)} />
+      </div>
+      <div>{text}</div>
     </div>
-  )
-}
+  );
+};
+export default App;
 ```
 
 ## License

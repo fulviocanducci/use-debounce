@@ -1,13 +1,16 @@
-import React from 'react'
-
-import { useMyHook } from 'use-debounce'
+import React, { useState } from 'react';
+import { useDebounce } from 'use-debounce';
 
 const App = () => {
-  const example = useMyHook()
+  const [value, setValue] = useState('');
+  const text = useDebounce(value);
   return (
     <div>
-      {example}
+      <div>
+        <input type="text" value={value} onChange={(e) => setValue(e.target.value)} />
+      </div>
+      <div>{text}</div>
     </div>
-  )
-}
-export default App
+  );
+};
+export default App;
