@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-npm install --save canducci-use-debounce
+npm install --save use-debounce-hook
 ```
 
 ## Usage
