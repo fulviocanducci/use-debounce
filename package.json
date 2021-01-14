@@ -1,7 +1,7 @@
 {
-  "name": "use-debounce",
+  "name": "use-debounce-hook",
   "version": "1.0.0",
-  "description": "useDebounce",
+  "description": "useDebounce Hook",
   "author": "fulviocanducci",
   "license": "MIT",
   "repository": "fulviocanducci/use-debounce",
