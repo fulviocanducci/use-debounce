@@ -1,4 +1,4 @@
-# use-debounce
+# use-debounce-hook
 
 ![Node.js CI](https://github.com/fulviocanducci/use-debounce/workflows/Node.js%20CI/badge.svg) [![NPM](https://img.shields.io/npm/v/use-debounce-hook.svg)](https://www.npmjs.com/package/use-debounce-hook) [![npm](https://img.shields.io/npm/dt/use-debounce-hook?style=plastic)](https://www.npmjs.com/package/use-debounce-hook) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
