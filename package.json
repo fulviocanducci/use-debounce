@@ -1,14 +1,22 @@
 {
   "name": "use-debounce-hook",
-  "version": "1.0.1",
+  "keywords": [
+    "react",
+    "debounce",
+    "hook"
+  ],
+  "version": "1.0.2",
   "description": "useDebounce Hook",
-  "author": "fulviocanducci",
+  "author": "Fúlvio Cezar Canducci Dias",
   "license": "MIT",
   "repository": "fulviocanducci/use-debounce",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "jsnext:main": "dist/index.es.js",
+  "files": [
+    "dist/"
+  ],
   "engines": {
     "node": ">=8",
     "npm": ">=5"
