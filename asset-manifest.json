@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/use-debounce/static/css/main.2c6a48fe.chunk.css",
+    "main.js": "/use-debounce/static/js/main.19b6c7ed.chunk.js",
+    "main.js.map": "/use-debounce/static/js/main.19b6c7ed.chunk.js.map",
+    "runtime-main.js": "/use-debounce/static/js/runtime-main.48afd910.js",
+    "runtime-main.js.map": "/use-debounce/static/js/runtime-main.48afd910.js.map",
+    "static/js/2.bf7415da.chunk.js": "/use-debounce/static/js/2.bf7415da.chunk.js",
+    "static/js/2.bf7415da.chunk.js.map": "/use-debounce/static/js/2.bf7415da.chunk.js.map",
+    "index.html": "/use-debounce/index.html",
+    "precache-manifest.965df0a42e7b760bd5a282a359e8d07c.js": "/use-debounce/precache-manifest.965df0a42e7b760bd5a282a359e8d07c.js",
+    "service-worker.js": "/use-debounce/service-worker.js",
+    "static/css/main.2c6a48fe.chunk.css.map": "/use-debounce/static/css/main.2c6a48fe.chunk.css.map",
+    "static/js/2.bf7415da.chunk.js.LICENSE.txt": "/use-debounce/static/js/2.bf7415da.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48afd910.js",
+    "static/js/2.bf7415da.chunk.js",
+    "static/css/main.2c6a48fe.chunk.css",
+    "static/js/main.19b6c7ed.chunk.js"
+  ]
+}
