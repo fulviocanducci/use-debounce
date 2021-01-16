@@ -17,10 +17,15 @@ import { useDebounce } from 'use-debounce';
 const App = () => {
   const [value, setValue] = useState('');
   const text = useDebounce(value);
+  //ou const text = useDebounce(value, 1000); timeout configuration
   return (
     <div>
       <div>
-        <input type="text" value={value} onChange={(e) => setValue(e.target.value)} />
+        <input
+          type="text"
+          value={value}
+          onChange={(e) => setValue(e.target.value)}
+        />
       </div>
       <div>{text}</div>
     </div>
