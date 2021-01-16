@@ -5,7 +5,7 @@
     "debounce",
     "hook"
   ],
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "useDebounce Hook",
   "author": "Fúlvio Cezar Canducci Dias",
   "license": "MIT",
